@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Урок - 01</title>
+    <script type="text/javascript" src="js/basic.js" defer></script>
+</head>
+<body>
+    <div>
+        <p>Температура по Цельсию 20 градусов</p>
+        <button onclick=" alert('Температура по Фаренгейту: ' + convertTc2Tf(20))">Показать температуру по Фаренгейту</button>
+    </div>
+    <hr>
+    <div>
+        <p>Работа с переменными. Переменная name = 'Василий'. Копируем переменную name в admin</p>
+        <button onclick=" alert('Переменная admin содержит значение: ' + getVal())">Показать значение переменной admin</button>
+    </div>
+    <hr>
+    <div>
+        <p>Чему будет равно JS-выражение 1000 + "108"</p>
+        <button onclick=" alert('Результат: ' + getVal2())">Показать результат</button>
+    </div>
+    <hr>
+    <div>
+        Самостоятельно разобраться с атрибутами тега script (async и defer)<br>
+        async - Позволяет асинхронно загружать JS скирпты и выполнять их сразу после того как они будут загружены в проект<br>
+        defer - Аналогично async, только выполняется не сразу полсе загрузки скрипта а после формирования всей страницы.
+
+    </div>
+
+</body>
+</html>
