@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Урок - 07</title>
+    <script type="text/javascript" src="js/basket.js" defer></script>
+    <link rel="stylesheet" href="css/basic.css">
+</head>
+<body>
+
+<div>
+    <div>Задание 1</div>
+    <div>Добавить возможность не только смотреть состав корзины, но и редактировать его, обновляя общую стоимость или выводя сообщение «Корзина пуста»</div>
+</div>
+<div>
+    <div>Задание 2</div>
+    <div>Сделать отдельные блоки «Состав корзины», «Адрес доставки», «Комментарий»;</div>
+    <div>Сделать эти поля сворачиваемыми;</div>
+    <div>Заполнять поля по очереди, то есть давать посмотреть состав корзины, внизу которого есть кнопка «Далее».<br>
+        Если нажать ее, сворачивается «Состав корзины» и открывается «Адрес доставки» и так далее.</div>
+    <Br>
+    <table border="1">
+        <tr>
+            <td>Товары</td>
+            <td><button id="buttonBasket">Корзина</button></td>
+        </tr>
+        <tr>
+            <td>
+                <div id="catalog"></div>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td><div id="basket_box"></div></td>
+                    </tr>
+                    <tr>
+                        <td><div id="basket_detail"></div></td>
+                    </tr>
+                    <tr>
+                        <td><div id="basket_text"></div></td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
